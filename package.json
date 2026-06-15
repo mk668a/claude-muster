@@ -1,0 +1,46 @@
+{
+  "name": "claude-muster",
+  "version": "0.1.0",
+  "description": "Orchestrate every repo's Claude from one root — run each sibling repo's own Claude inside it and delegate work to it, no copying or merging.",
+  "keywords": [
+    "claude",
+    "claude-code",
+    "orchestration",
+    "agents",
+    "polyrepo",
+    "monorepo",
+    "cli"
+  ],
+  "type": "module",
+  "bin": {
+    "claude-muster": "dist/cli.js"
+  },
+  "files": [
+    "dist",
+    "templates"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsx src/cli.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "license": "MIT",
+  "author": "mk668a",
+  "dependencies": {
+    "chokidar": "^4.0.3",
+    "picomatch": "^4.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "@types/picomatch": "^3.0.1",
+    "tsup": "^8.3.5",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  }
+}

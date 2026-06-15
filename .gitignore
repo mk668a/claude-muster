@@ -1,0 +1,9 @@
+node_modules/
+dist/
+*.log
+
+# Local-only working docs (house rule — never publish)
+PLAN.md
+CLAUDE.md
+docs/
+.claude/.muster-manifest.json
