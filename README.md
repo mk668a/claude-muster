@@ -10,6 +10,12 @@ English · [日本語](./README.ja.md) · [中文](./README.zh-CN.md) · [한국
 
 Work across all your repos from one Claude session by letting each repo's own Claude do its own work, in its own folder, with its own skills, agents, hooks, and settings intact.
 
+<p align="center">
+  <img src="./assets/demo.gif" alt="claude-muster in one session: list the repos, dispatch a task to one repo's own Claude, then fan the same task out to every repo" width="100%">
+</p>
+
+<p align="center"><em>Discover your repos, dispatch one task to one repo's own Claude, or fan the same task out to all — from one root.</em></p>
+
 ## The situation
 
 Say your work lives in one folder full of separate git repos:

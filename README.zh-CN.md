@@ -10,6 +10,12 @@
 
 让每个仓库自己的 Claude 在它自己的文件夹里、带着它本来的 skill、agent、hook 和设置干活，你就能从同一个 Claude 会话里横跨所有仓库工作。
 
+<p align="center">
+  <img src="./assets/demo.gif" alt="在同一个会话里运行 claude-muster：列出仓库、把任务派发给某个仓库自己的 Claude、再把同一个任务一次性分发给所有仓库" width="100%">
+</p>
+
+<p align="center"><em>发现你的仓库，把单个任务派发给某个仓库自己的 Claude，或把同一个任务一次性分发给所有仓库 —— 都从同一个根。</em></p>
+
 ## 你会遇到的情况
 
 假设你的工作目录里并排放着好几个独立的 git 仓库：

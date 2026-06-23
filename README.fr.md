@@ -10,6 +10,12 @@
 
 Travaillez sur tous vos dépôts depuis une seule session Claude, en laissant le Claude propre à chaque dépôt faire son travail, dans son propre dossier, avec ses skills, ses agents, ses hooks et ses réglages intacts.
 
+<p align="center">
+  <img src="./assets/demo.gif" alt="claude-muster en une seule session : lister les dépôts, envoyer une tâche au Claude propre à un dépôt, puis diffuser la même tâche à tous" width="100%">
+</p>
+
+<p align="center"><em>Découvrez vos dépôts, envoyez une tâche au Claude propre à un dépôt ou diffusez la même à tous, depuis une seule racine.</em></p>
+
 ## La situation
 
 Imaginez que votre travail tient dans un seul dossier rempli de dépôts git distincts :

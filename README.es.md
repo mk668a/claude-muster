@@ -10,6 +10,12 @@
 
 Trabaja en todos tus repos desde una única sesión de Claude dejando que el Claude propio de cada repo haga su trabajo, en su propia carpeta, con sus skills, agentes, hooks y ajustes intactos.
 
+<p align="center">
+  <img src="./assets/demo.gif" alt="claude-muster en una sola sesión: listar los repos, despachar una tarea al Claude propio de un repo y repartir la misma tarea a todos" width="100%">
+</p>
+
+<p align="center"><em>Descubre tus repos, despacha una tarea al Claude propio de un repo o reparte la misma a todos, desde una sola raíz.</em></p>
+
 ## La situación
 
 Supón que tu trabajo vive en una carpeta llena de repos git independientes:
